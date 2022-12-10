@@ -1,0 +1,171 @@
+
+
+body {
+    background-color: rgb(255, 247, 238);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(35, 7, 138);
+}
+p{
+    filter: drop-shadow(1px 1px 2px rgba(148, 148, 148, 0.575));
+}
+#corpo {
+    top: 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 340px;
+    height: 100%;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    filter: drop-shadow(3px 3px 4px rgba(95, 95, 95, 0.514));
+    
+}
+#bloco_azul {
+    background-color: rgb(105, 105, 194);
+}
+#bloco_verde {
+    background-color: rgb(105, 194, 164);
+}
+#bloco_laranja {
+    background-color: rgb(248, 182, 106);
+}
+#bloco_vermelho {
+    background-color: rgb(252, 67, 67);
+}
+#bloco_rosa {
+    background-color: rgb(247, 99, 215);
+}
+#bloco_amarelo {
+    background-color: rgb(248, 227, 109);
+}
+#bloco_cinza {
+    background-color: rgb(184, 184, 184);
+}
+#bloco_roxo {
+    background-color: rgb(217, 73, 236);
+}
+#bloco_marrom {
+    background-color: rgb(168, 112, 112);
+}
+#bloco_grafite {
+    background-color: rgb(53, 53, 53);
+}
+
+.interior_projetos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.modulo {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.411);
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#add_card {
+    width: 100px;
+    position: relative;
+    display: flex;
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+    bottom: 0px; 
+    cursor: pointer;
+}
+
+#projetos {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.botao_dentro{
+    font-size: 12px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.377);
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px rgb(141, 141, 141));
+    color: white;
+}
+#titulo_grande {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#botoes_dentro {
+    position: relative;
+    justify-content: right;
+    justify-content: right;
+    margin-left: 15px;
+}
+
+#tarefa_inserida {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.texto_inicio {
+    display: flex;
+    justify-content: center;
+}
+
+#topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#botao_topo {
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border: none;
+    background-color: rgb(20, 31, 131);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    cursor: pointer;
+}
